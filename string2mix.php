@@ -1,4 +1,7 @@
 <?php
+	// Make By K22pr - 2017-02-02
+	// https://github.com/k22pr/PHPx-String2Mix
+	
 	// 2개 이상의 문자열을 서로 섞어 줍니다.
 	//1글자의 배열들은 섞이지 않습니다.
 	function string2mix(array $str) : string{
