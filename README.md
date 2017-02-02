@@ -16,15 +16,15 @@
 
 ###해쉬를 통한 사용예
 
-일반 md5(md5("password"))의 경우 rainbow table에 의해 값을 유추해낼 수 있지만 string2mix()후 해쉬화 하면 값을 유추해내기 어렵습니다.
-
-해당값을 해쉬화 할경우 
-
 1. <code>["hello","world"] => "hweolrllod"</code>
 2. <code>["HTML5","PHP7","CSS3","SCSS","jQuery","ANIA"] => "HPCSjATHSCQNMuLPSSeI5r73SyA"</code>
 3. <code>["비밀번호","안알랴줌"] => "비안밀알번랴호줌"</code>
 
 **예제의 make_hash()에 password / 패스워드를 넣은 예제**
+
+일반 md5(md5("password"))의 경우 rainbow table에 의해 값을 유추해낼 수 있지만 string2mix()후 해쉬화 하면 값을 유추해내기 어렵습니다.
+
+해당값을 해쉬화 할경우 
 
 1. <code>["11297115115119111114100","21179511511911111411001"] => "1211219779151151151151191191111111141141100001"
 => **(HASH)** d43edf43367739eb6ad5b0e7b0142ac52087ad2df5b625aacd26de8f661e070c7313d4e02ef4ae4625ba2a696f4d8871b9e7d3d270ec8f8d3797d605b2603e10</code>
