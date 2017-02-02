@@ -2,10 +2,6 @@
 ###설명
 2개 이상의 배열을 받아 서로 섞어줍니다.
 
-
-일반 md5(md5("password"))의 경우 rainbow table에 의해 값을 유추해낼 수 있지만 string2mix()후 해쉬화 하면 값을 유추해내기 어렵습니다.
-
-해당값을 해쉬화 할경우 
 ***
 
 ###주의사항
@@ -19,6 +15,10 @@
 ***
 
 ###해쉬를 통한 사용예
+
+일반 md5(md5("password"))의 경우 rainbow table에 의해 값을 유추해낼 수 있지만 string2mix()후 해쉬화 하면 값을 유추해내기 어렵습니다.
+
+해당값을 해쉬화 할경우 
 
 1. <code>["hello","world"] => "hweolrllod"</code>
 2. <code>["HTML5","PHP7","CSS3","SCSS","jQuery","ANIA"] => "HPCSjATHSCQNMuLPSSeI5r73SyA"</code>
