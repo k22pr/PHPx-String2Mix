@@ -47,6 +47,7 @@
 		foreach($arr as $no => $list){
 			$hex .= base_convert(bin2hex($list),16,2);
 		}
+		$hex = hash($type,$hex);
 		
 		for($i=0;$i < 4;$i++){
 			$size = floor(strlen($hex/4));
