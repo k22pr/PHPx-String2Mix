@@ -1,10 +1,10 @@
 # String to Mix
-###설명
+### 설명
 2개 이상의 배열을 받아 서로 섞어줍니다.
 
 ***
 
-###주의사항
+### 주의사항
 
 1.반드시 2개 이상의 값을 받아야하며 리턴값은 문자열 입니다.
 
@@ -14,7 +14,7 @@
 
 ***
 
-###해쉬를 통한 사용예
+### 해쉬를 통한 사용예
 
 1. <code>["hello","world"] => "hweolrllod"</code>
 2. <code>["HTML5","PHP7","CSS3","SCSS","jQuery","ANIA"] => "HPCSjATHSCQNMuLPSSeI5r73SyA"</code>
